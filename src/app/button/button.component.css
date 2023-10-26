@@ -1,0 +1,17 @@
+.counter-btn{
+    padding: 20px 25px;
+    margin-right: 1rem;;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+
+}
+
+.counter-btn:active{
+    background-color: #5a574c;
+    transform: scale(0.95);
+}
